@@ -26,8 +26,10 @@ a{
     text-decoration: none;
     color: #0A1128;
 }
-a:hover{
-    color: #1282A2;
+.link:hover{
+    font-size: 20px;
+    transition: all 0.3s ease;
+    
 }
 .logo{
     font-size: 60px;
@@ -87,7 +89,9 @@ button{
 }
 #res:hover{
     background-color: white;
-    color: #4a91ca;
+    color: #274c27;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgb(255, 255, 255,0.8);
 }
 #pro{
     background-color: #274c27;
@@ -97,7 +101,9 @@ button{
 }
 #pro:hover{
     background-color: white;
-    color: #4a91ca;
+    color: #274c27;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgb(255, 255, 255,0.8);
 }
 
 /* end  */
@@ -156,8 +162,9 @@ button{
 
 
 .project div:hover{
-    background-color: white;
-    color: #1282A2;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.946);
+    font-size: larger;
 }
 .project div h2{
     padding-left: 60px;
@@ -183,8 +190,9 @@ h4{
 }
 
 h4:hover{
-    background-color: white;
-    color: #1282A2;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    font-size: larger;
 }
 
 h5{
