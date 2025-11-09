@@ -66,6 +66,11 @@ a{
     border: 10px white solid;
     border-radius: 50%;
 }
+#intro img:hover{
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 6px rgb(255, 255, 255,0.8);
+    
+}
 #intro h1{
     font-size: 50px;
 }
