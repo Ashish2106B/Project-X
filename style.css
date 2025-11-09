@@ -1,12 +1,17 @@
 /* body  */
 body{
-    height: 250vh;
     margin: 20px;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f6fff8;
 }
 
 /* navigation bar  */
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 a{
     text-decoration: none;
     color: #0A1128;
@@ -24,7 +29,7 @@ a:hover{
 
 /* intro section  */
 #intro{
-    background-color: #034078;
+    background-color: #6b9080;
     color: white;
     border-radius: 10px;
     height: 360px;
@@ -62,9 +67,9 @@ button{
     left: 20px;
 }
 #res{
-    background-color: #4a91ca;
+    background-color: #a4c3b2;
     color: white;
-    border-color: #4a91ca;
+    border:none
 
 }
 #res:hover{
@@ -72,9 +77,9 @@ button{
     color: #4a91ca;
 }
 #pro{
-    background-color: #4a91ca;
+    background-color: #a4c3b2;
     color: white;
-    border-color: #4a91ca;
+    border:none;
     margin-left: 40px;
 }
 #pro:hover{
@@ -105,12 +110,14 @@ button{
 }
 
 .project div{
-    background-color: #1282A2;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #cce3de;
     height: 200px;
     width: 300px;
     display: inline-block;
     margin-left: 40px;
-    color: white;
+    color: #6b9080;
 }
 .project div:hover{
     background-color: white;
@@ -131,8 +138,9 @@ button{
 }
 
 h4{
+    border-radius: 50%;
     display: inline-block;
-    background-color: #1282A2;
+    background-color: #c9cba3;
     color: white;
     padding: 50px;
     margin-left: 50px;
@@ -157,7 +165,7 @@ h5{
 }
 
 #resume h2{
-    background-color: #034078;
+    background-color: #6b9080;
     color: white;
 
 }
